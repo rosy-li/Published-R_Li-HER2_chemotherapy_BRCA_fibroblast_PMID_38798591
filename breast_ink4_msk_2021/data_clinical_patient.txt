@@ -1,0 +1,1121 @@
+#Patient Identifier	Patient Current Age	Sex	Race Category	Ethnicity Category
+#Identifier to uniquely specify a patient.	Patient Current Age	Sex	The text for reporting information about race.	The text for reporting information about ethnicity.
+#STRING	NUMBER	STRING	STRING	STRING
+#0	1	1	1	1
+PATIENT_ID	AGE_CURRENT	SEX	RACE	ETHNICITY
+P-0000015	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000066	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000081	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000102	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000104	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000106	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000120	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000125	46	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0000138	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000152	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000155	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000160	73	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0000167	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000201	74	Female	WHITE	Unknown whether Spanish or not
+P-0000204	34	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000216	77	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000220	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000224	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000234	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000242	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000247	54	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0000259	74	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0000278	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000281	61	Male	WHITE	Non-Spanish; Non-Hispanic
+P-0000288	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000337	49	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0000346	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000392	39	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000397				
+P-0000398	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000422	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000432	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000435	69	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0000464	38	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000468	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000469	44	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000471	41	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000472	42	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000473	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000495	49	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0000508	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000514	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000519	35	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0000522	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000525	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000532	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000584	37	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000595	56	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0000597	51	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0000607	67	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0000617	77	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000624	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000690	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000704	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000786	85	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000795	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000805	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000816	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000820	77	Female	UNKNOWN	Unknown whether Spanish or not
+P-0000861	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000864	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000871	72	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0000887	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000947	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000955	74	Female	WHITE	Unknown whether Spanish or not
+P-0000984	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000985	41	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001032	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001061	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001078	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001114	56	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0001118	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001168	50	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0001183	39	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001184	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001207	56	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0001258	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001263	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001290	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001308	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001350	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001351	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001354	67	Male	WHITE	Non-Spanish; Non-Hispanic
+P-0001355	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001366	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001372	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001376	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001395	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001396	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001417	61	Female	WHITE	Unknown whether Spanish or not
+P-0001484	54	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0001489	39	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001491	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001505	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001508	61	Female	OTHER	Unknown whether Spanish or not
+P-0001516	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001545	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001566	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001580	53	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0001589	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001608	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001620	84	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001631	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001632	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001643	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001672	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001751	41	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0001793	78	Female	WHITE	Unknown whether Spanish or not
+P-0001846	42	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001874	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001875	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001887	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001889	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001902	62	Female	WHITE	Unknown whether Spanish or not
+P-0001908	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001932	35	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001934	75	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001935	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001952	77	Female	WHITE	Unknown whether Spanish or not
+P-0001957	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001967	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001979	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0001990	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002017	67	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0002053	40	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002056	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002082	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002088	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002096	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002106	42	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002115	65	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0002124	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002129	67	Female	WHITE	Unknown whether Spanish or not
+P-0002133	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002139	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002144	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002176	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002232	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002241	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002281	82	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002297	78	Female	PT REFUSED TO ANSWER	Unknown whether Spanish or not
+P-0002312	38	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002324	73	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0002366	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002374	77	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002473	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002527	55	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0002531	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002543	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002545	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002562	64	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0002574	74	Male	WHITE	Non-Spanish; Non-Hispanic
+P-0002582	73	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0002591	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002617	58	Female	WHITE	Unknown whether Spanish or not
+P-0002622	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002625	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002630	46	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0002652	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002661	38	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0002682	84	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002696	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002713	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002756	39	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0002773	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002781	67	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0002813	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002828	68	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0002911	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002915	58	Female	BLACK OR AFRICAN AMERICAN	Unknown whether Spanish or not
+P-0002922	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002942	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0002975	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003005	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003021	63	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0003025	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003042	57	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0003054	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003063	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003066	39	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0003108	43	Female	WHITE	South/Central America (except Brazil)
+P-0003142	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003147	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003173				
+P-0003185	70	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0003192	47	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003223	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003224	63	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0003233	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003236	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003241	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003265	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003273	40	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0003281	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003294	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003306	58	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0003345	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003351	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003375	64	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0003393	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003394	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003431	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003459	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003493	81	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003522	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003528	81	Female	WHITE	Unknown whether Spanish or not
+P-0003557	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003581	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003591	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003594	58	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0003603	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003606	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003622	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003634	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003641	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003661	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003683	54	Female	OTHER	Dominican Republic
+P-0003751	56	Female	WHITE	Unknown whether Spanish or not
+P-0003772	56	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0003784	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003787	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003801	85	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003819	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003859	44	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0003866	45	Female	PT REFUSED TO ANSWER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0003877	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003882	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003885	77	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003888	87	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003893	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003903	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003918	56	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0003933	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003941	49	Female	PT REFUSED TO ANSWER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0003947	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003950	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003958	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003985	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0003987	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004052	81	Female	WHITE	Unknown whether Spanish or not
+P-0004058	61	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0004127	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004151	56	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0004158	50	Female	WHITE	Unknown whether Spanish or not
+P-0004165	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004178	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004181	72	Female	WHITE	Unknown whether Spanish or not
+P-0004182	49	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0004183	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004187	59	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0004193	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004195	41	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004216	32	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004237	75	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004246	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004264	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004286	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004289	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004295	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004301	75	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004309	74	Female	WHITE	Unknown whether Spanish or not
+P-0004314	63	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0004346	60	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0004353	74	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0004375	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004388	41	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004392	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004406	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004433	47	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004434	48	Female	PT REFUSED TO ANSWER	Mexican (includes Chicano)
+P-0004450	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004477	87	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004501	69	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0004523	73	Female	WHITE	Unknown whether Spanish or not
+P-0004537	58	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0004550	76	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0004555	58	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0004558	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004580	65	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0004606				
+P-0004611	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004637	54	Female	PT REFUSED TO ANSWER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0004646	58	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0004670	76	Female	WHITE	Unknown whether Spanish or not
+P-0004728	35	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004753	73	Female	WHITE	Unknown whether Spanish or not
+P-0004758	57	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0004768	61	Female	OTHER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0004824	38	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0004835	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004896	42	Female	BLACK OR AFRICAN AMERICAN	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0004898	48	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0004908	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004909	35	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004949	47	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0004951	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004963	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004974	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004981	52	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0004987	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0004999	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005032	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005037	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005042	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005070	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005097	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005131	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005145	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005152	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005153	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005154	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005219	55	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0005220	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005242	76	Female	WHITE	Unknown whether Spanish or not
+P-0005265	70	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0005267	70	Female	WHITE	Unknown whether Spanish or not
+P-0005315	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005360	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005377	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005416	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005423	48	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0005426	34	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005429	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005452	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005495	74	Female	BLACK OR AFRICAN AMERICAN	Unknown whether Spanish or not
+P-0005508	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005613	74	Female	WHITE	Unknown whether Spanish or not
+P-0005640	58	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0005666	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005688	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005726	79	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0005778	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005781	52	Female	OTHER	Non-Spanish; Non-Hispanic
+P-0005785	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005790	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005799	43	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005818	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005900	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005904	71	Male	WHITE	Non-Spanish; Non-Hispanic
+P-0005943	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005948	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0005950	60	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0006051	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006074	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006161	43	Female	OTHER	Non-Spanish; Non-Hispanic
+P-0006162	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006166	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006169	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006185	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006227	44	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006248	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006283	43	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0006286	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006309	63	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0006315	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006335	57	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0006342	56	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0006355	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006376	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006406	73	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0006424	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006442	49	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0006447	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006479	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006489	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006527	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006549	80	Female	UNKNOWN	Unknown whether Spanish or not
+P-0006558	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006563	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006601	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006609	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006631	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006650	77	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006660	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006703	68	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0006723	60	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0006741	36	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006780	57	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0006787	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006827	65	Female	BLACK OR AFRICAN AMERICAN	Unknown whether Spanish or not
+P-0006842	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006847	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006854	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006866	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006910	82	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0006963				
+P-0006992	36	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0007009	69	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0007032	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007036	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007037	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007040	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007087	54	Female	OTHER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0007129	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007148	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007183	75	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007231	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007282	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007284	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007288	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007396	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007401	85	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007423	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007559	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007564	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007577	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0007671	73	Female	BLACK OR AFRICAN AMERICAN	Unknown whether Spanish or not
+P-0007741	69	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0007758	70	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0007888	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008003	41	Female	PT REFUSED TO ANSWER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0008007	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008024	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008027	46	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0008082	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008179	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008204	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008211	50	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0008213	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008327	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008334	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008338	66	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0008346	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008386	81	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0008398	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008400	42	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008423	52	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0008448	88	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008488	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008570	47	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0008574	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008647	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008666	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008679	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008712	47	Female	BLACK OR AFRICAN AMERICAN	Unknown whether Spanish or not
+P-0008751	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008760	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008767	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008795	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008833	82	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008846	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008930	57	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0008931	42	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0008970	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009021	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009112	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009120	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009122	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009137	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009150	45	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0009155	47	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009160	54	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0009176	52	Female	WHITE	Unknown whether Spanish or not
+P-0009181	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009333	77	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009344	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009364	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009367	66	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0009369	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009405	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009406	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009432	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009482	45	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0009498	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009602	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009610	35	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0009688	36	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009692	71	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0009700	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009725	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009726	45	Female	PT REFUSED TO ANSWER	South/Central America (except Brazil)
+P-0009738	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009740	30	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009821	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009828	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009829	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009859	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009874	38	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009878	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009897	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009901	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009907	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009931	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0009936	82	Female	WHITE	Unknown whether Spanish or not
+P-0009941	86	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010043	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010068	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010069	86	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010077	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010110	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010171	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010201	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010234	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010244	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010245	74	Female	WHITE	Unknown whether Spanish or not
+P-0010277	68	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0010279	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010296	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010321	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010361	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010427	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010431	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010453	80	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010464	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010488	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010508	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010575	58	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0010585	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010593	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010600	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010655	80	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010684	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010703	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010706	66	Female	WHITE	Cuban
+P-0010799	55	Female	PT REFUSED TO ANSWER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0010808	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010822	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010912	43	Female	PT REFUSED TO ANSWER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0010917	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010922	58	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0010925	64	Female	WHITE	Unknown whether Spanish or not
+P-0010930	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0010933	40	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0010939	74	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0010979	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011015	75	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011048	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011072	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011098	83	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0011193	59	Female	UNKNOWN	Non-Spanish; Non-Hispanic
+P-0011247	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011261	64	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0011280	83	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011305				
+P-0011321	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011352	53	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0011365	40	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011369	54	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0011373	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011376	73	Female	OTHER	Cuban
+P-0011386	61	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0011392	47	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011398	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011415	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011420	69	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0011434	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0011442				
+P-0011567	66	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0011592	80	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012127	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012134	47	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012146	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012148	39	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012186	62	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0012204	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012214	84	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012222	38	Female	PT REFUSED TO ANSWER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0012223	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012240	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012243	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012260	43	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012278	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012288	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012318	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012372	67	Female	WHITE	South/Central America (except Brazil)
+P-0012512	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012515	86	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012534	50	Female	OTHER	Puerto Rican
+P-0012539	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012560	57	Female	WHITE	Unknown whether Spanish or not
+P-0012567	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012572	30	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012601	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012632	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012713	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012803	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012805	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012807	75	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012824	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012836	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012858	87	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0012863	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012897	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0012996	63	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0013059	40	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013105	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013117	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013118	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013172	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013217	62	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0013219	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013236	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013265	68	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0013299	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013369	88	Female	BLACK OR AFRICAN AMERICAN	Unknown whether Spanish or not
+P-0013454	65	Female	OTHER	Non-Spanish; Non-Hispanic
+P-0013486	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013491				
+P-0013507	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013562	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013568	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013577	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013584	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013623	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013625	33	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0013647	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013650	31	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0013707	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013734	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013771	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013895	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013908	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013915	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013969	34	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0013988	79	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0013990	43	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0014034	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014067	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014079	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014091	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014092	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014121	54	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0014130	55	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0014142	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014259	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014263	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014268	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014276	71	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0014298	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014362	51	Female	OTHER	Non-Spanish; Non-Hispanic
+P-0014372	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014378	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014384	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014407	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014431	90	Female	WHITE	Unknown whether Spanish or not
+P-0014483	63	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0014558	58	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0014627	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014628	58	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0014696	51	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0014702	79	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0014703	80	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014707	35	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014716	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014718	88	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014776	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014814	59	Female	WHITE	Unknown whether Spanish or not
+P-0014842	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014843	47	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014903	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014904	79	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014905	46	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0014907	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014913	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014935	33	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0014951	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0014995	50	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0015066	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015097	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015099	60	Female	OTHER	South/Central America (except Brazil)
+P-0015116	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015138	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015355	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015428	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015437	44	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0015461	62	Female	WHITE	Unknown whether Spanish or not
+P-0015473	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015475	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015476	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015558	34	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015561	80	Female	WHITE	Unknown whether Spanish or not
+P-0015565	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015568	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015577	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015598	82	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015630	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015670	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015674	47	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015689	69	Female	OTHER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0015710	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015828	43	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015856	77	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015902	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015930	57	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0015944	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015948	44	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0015964	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016093	73	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0016144	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016148	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016164	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016202	77	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016226	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016232	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016262	34	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016277	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016371	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016384	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016454	79	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016468	34	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016473	74	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0016474	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016498	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016526	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016543	65	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0016551	82	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016564	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016571	67	Female	WHITE	Spanish surname only
+P-0016686	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016734	70	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0016810	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016836	74	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0016900	60	Female	WHITE	Other Spanish/Hispanic(incl European; excl Dom Rep
+P-0016949	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0016952	39	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017010	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017015	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017026	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017042	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017116	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017181	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017202	57	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0017228	57	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0017257	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017292	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017317	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017368	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017422	50	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0017438	61	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0017485	80	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017562	43	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017604	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017608	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017612	43	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017616	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017623	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017624	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017666	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017747	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017820	74	Female	OTHER	Non-Spanish; Non-Hispanic
+P-0017833	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017907	49	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0017926	62	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0017935	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0017936	51	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0017961	44	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018048	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018071	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018087	71	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0018089	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018092	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018122	59	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0018123	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018145	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018146	75	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018181	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018191	85	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018309	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018370	55	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0018394	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018397	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018411	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018414	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018516	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018547	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018551	42	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018592	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018630	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018650	80	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018661	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018690	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018719	55	Female	OTHER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0018751	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018869	77	Female	WHITE	Cuban
+P-0018882	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018939	63	Female	WHITE	Unknown whether Spanish or not
+P-0018955	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0018958	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019024	72	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0019025	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019040	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019103	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019118	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019166	58	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0019189	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019200	46	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019243	56	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0019250	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019330	79	Female	WHITE	South/Central America (except Brazil)
+P-0019412	35	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0019425	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019434	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019458	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019463	56	Female	OTHER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0019528	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019537	56	Female	WHITE	Puerto Rican
+P-0019561	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019631	35	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019636	48	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0019677	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019678	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019750	51	Female	OTHER	Non-Spanish; Non-Hispanic
+P-0019783	70	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0019798	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019834	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019838	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019902	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0019947	50	Female	OTHER	Other Spanish/Hispanic(incl European; excl Dom Rep
+P-0019957	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020051	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020129	52	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0020130	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020187	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020265	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020299	54	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0020301	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020332	44	Female	WHITE	South/Central America (except Brazil)
+P-0020353	77	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020360	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020398	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020593	61	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0020602	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020619	74	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0020627	60	Female	ASIAN-FAR EAST/INDIAN SUBCONT	South/Central America (except Brazil)
+P-0020673	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020707	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020736	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020762	88	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020868	59	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0020912	75	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020928	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020936	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020994	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0020997	70	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0021148	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021149	54	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0021156	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021193	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021195	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021320	63	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0021385	42	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021436	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021444	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021480	83	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021548	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021580	82	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0021585	47	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021612	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021664	33	Female	OTHER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0021690	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021714	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021734	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021746	36	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021751	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021788	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021845	61	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Unknown whether Spanish or not
+P-0021895	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021910	47	Female	OTHER	Non-Spanish; Non-Hispanic
+P-0021942	53	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0021943	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0021984	36	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022006	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022166	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022282	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022335	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022337	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022350	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022445				
+P-0022475	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022571	54	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0022593	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022601	58	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0022673	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022805	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022872	84	Female	WHITE	Unknown whether Spanish or not
+P-0022909	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022933	61	Female	WHITE	Unknown whether Spanish or not
+P-0022937	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0022978	40	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023006	37	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0023119	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023173	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023193	68	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0023222	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023256	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023321	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023421	57	Male	WHITE	Non-Spanish; Non-Hispanic
+P-0023445	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023454	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023465	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023473	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023508	79	Female	WHITE	Unknown whether Spanish or not
+P-0023609	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023642	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023705	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023754	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023771	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023773	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023797	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023814	52	Female	BLACK OR AFRICAN AMERICAN	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0023835	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023841	63	Female	WHITE	Unknown whether Spanish or not
+P-0023880	76	Female	BLACK OR AFRICAN AMERICAN	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0023946	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023957	35	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0023992	59	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0024021	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024043	48	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0024096	75	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024123	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024153	55	Female	NO VALUE ENTERED	Unknown whether Spanish or not
+P-0024184	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024223	43	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0024266	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024285	62	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0024308	83	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024324	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024336	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024397	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024403	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024472	70	Female	OTHER	Dominican Republic
+P-0024481	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024507	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024565	46	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0024588	45	Female	NATIVE AMERICAN-AM IND/ALASKA	Non-Spanish; Non-Hispanic
+P-0024656	29	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024722	74	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024729	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024796	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024840	81	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0024947	40	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025050	75	Female	OTHER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0025072	39	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025096	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025168	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025187	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025256	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025305	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025355	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025390	46	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0025396	75	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025476	75	Female	WHITE	Puerto Rican
+P-0025528	89	Female	WHITE	Unknown whether Spanish or not
+P-0025567	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025763	71	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0025808	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025810	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025826	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025834	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025867	74	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0025909	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025979	34	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0025994	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026031	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026055	68	Female	PT REFUSED TO ANSWER	Unknown whether Spanish or not
+P-0026191	38	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026192	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026253	59	Female	WHITE	Unknown whether Spanish or not
+P-0026290	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026303	23	Female	OTHER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0026472	69	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0026475	47	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026500	73	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0026573	77	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026614	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026623	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026626	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026634	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026710	40	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026766	64	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026876	47	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026926	47	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0026965	69	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0027129	58	Female	OTHER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0027190	68	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0027206	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027208	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027256	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027342	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027395	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027477	79	Female	UNKNOWN	Non-Spanish; Non-Hispanic
+P-0027542	36	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027552	61	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0027586	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027589	81	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027617	48	Female	OTHER	Non-Spanish; Non-Hispanic
+P-0027710	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027725	44	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027741	48	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0027820	57	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0027879	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027948	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0027986	56	Female	NO VALUE ENTERED	Unknown whether Spanish or not
+P-0028072	59	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0028143	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0028265	53	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0028436	68	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0028446	54	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0028455	77	Female	WHITE	Cuban
+P-0028457	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0028496	52	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0028515	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0028578	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0028579	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0028583	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0028718	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0028843	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0029064	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0029146	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0029177	72	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0029329	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0029473	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0029736	39	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0029771	35	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0029786	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0029833	71	Female	OTHER	South/Central America (except Brazil)
+P-0029845	77	Female	UNKNOWN	Non-Spanish; Non-Hispanic
+P-0029919	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0030168	65	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0030451	75	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0030480	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0030545	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0030664	51	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0030723	48	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0030729	65	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0030757	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0030800	51	Female	PT REFUSED TO ANSWER	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0030930	75	Female	OTHER	Puerto Rican
+P-0031151	62	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0031264	80	Male	WHITE	Non-Spanish; Non-Hispanic
+P-0031476	36	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0031515	72	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0031557	45	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0031647	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0031684	42	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0031743	69	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0031839	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0031862	49	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0032100	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0032151	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0032251	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0032279	50	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0032519	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0032552	34	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0032553	67	Male	WHITE	Non-Spanish; Non-Hispanic
+P-0032673	49	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0032684	64	Female	OTHER	Non-Spanish; Non-Hispanic
+P-0032738	65	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0032889	78	Male	WHITE	Non-Spanish; Non-Hispanic
+P-0033220	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033244	77	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033322	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033323	86	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0033381	67	Female	WHITE	Unknown whether Spanish or not
+P-0033384	62	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033401	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033402	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033482	80	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033483	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033534	45	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033582	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033604	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033651	65	Female	BLACK OR AFRICAN AMERICAN	Unknown whether Spanish or not
+P-0033796	66	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033902	67	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0033921	34	Male	WHITE	Non-Spanish; Non-Hispanic
+P-0034141	33	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0034161	63	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0034166	62	Female	WHITE	Unknown whether Spanish or not
+P-0034409	37	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0034514	40	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0034539	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0034541	59	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0034647	87	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0034764	73	Female	OTHER	Non-Spanish; Non-Hispanic
+P-0034767	87	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0034971	56	Female	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0034977	49	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0035163				
+P-0035592	82	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0035870	63	Female	WHITE	Unknown whether Spanish or not
+P-0036276	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0036286	44	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0036710	69	Female	UNKNOWN	Unknown whether Spanish or not
+P-0036863	59	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0036934	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0037270	71	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0037818	41	Female	PT REFUSED TO ANSWER	Non-Spanish; Non-Hispanic
+P-0038307	70	Female	WHITE	Unknown whether Spanish or not
+P-0038724	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0039230	61	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0039276	39	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0039295	55	Male	WHITE	Non-Spanish; Non-Hispanic
+P-0039857	73	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0040200	38	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0040854	50	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0042670	60	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0042857	40	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0043644	57	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0044467	67	Female	WHITE	Unknown whether Spanish or not
+P-0046560	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0046799	56	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0046841	64	Male	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0047327	58	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0047755	46	Male	WHITE	Spanish  NOS; Hispanic NOS, Latino NOS
+P-0047800	55	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0048088	64	Male	UNKNOWN	Unknown whether Spanish or not
+P-0048317	57	Female	BLACK OR AFRICAN AMERICAN	Non-Spanish; Non-Hispanic
+P-0048483	70	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0048794	39	Male	WHITE	Non-Spanish; Non-Hispanic
+P-0048988	44	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0049420	78	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0049753	69	Female	ASIAN-FAR EAST/INDIAN SUBCONT	Non-Spanish; Non-Hispanic
+P-0052345	76	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0052445	79	Female	WHITE	Non-Spanish; Non-Hispanic
+P-0000075		Female		

@@ -1,0 +1,327 @@
+#***************
+#*Comparing residual disease vs. complete pathological response (pCR) 
+
+# GSE130788
+library(GEOquery)
+# 
+# gse <- getGEO("GSE130788")
+# head(Meta(gse))
+# gsedata <- gse[[1]]
+# data_RNA <- exprs(gsedata)
+# data_clinical <- pData(gsedata)
+# write.csv(data_clinical,"GSE130788_clinical_annotation.csv")
+# write.csv(data_RNA, "GSE130788_data_RNA_normalized.csv")
+
+data_clinical_raw <- read.csv("GSE130788_clinical_annotation.csv",header = TRUE, row.names = 1)
+library(data.table)
+data_RNA_raw <- fread("GSE130788_data_RNA_normalized.csv")
+
+#convert probe names to gene names
+library(readr)
+probe_list <- read_tsv("GPL6480-9577.txt")
+#* Source of the txt file: After downloading the platform probe to gene name conversion from NCBI ,
+#* https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6480
+#* unzip. open the txt file AND remove the following rows at the beginning!!
+#ID = Agilent feature number
+#SPOT_ID = Spot identifier
+#CONTROL_TYPE = Control type
+#REFSEQ = RefSeq Accession number
+#GB_ACC = GenBank Accession number
+#GENE = Entrez Gene ID
+#GENE_SYMBOL = Gene Symbol
+#GENE_NAME = Gene Name
+#UNIGENE_ID = UnigeneID
+#ENSEMBL_ID = EnsemblID
+#TIGR_ID = TIGRID
+#ACCESSION_STRING = Accession String
+#CHROMOSOMAL_LOCATION = Chromosomal Location
+#CYTOBAND = Cytoband
+#DESCRIPTION = Description
+#GO_ID = GoIDs
+#SEQUENCE = Sequence
+library(dplyr)
+"PLK1" %in% probe_list$GENE_SYMBOL
+"SERPINE1" %in% probe_list$GENE_SYMBOL
+"PAI1" %in% probe_list$GENE_SYMBOL
+"PTK2" %in% probe_list$GENE_SYMBOL
+"IGFBP2" %in% probe_list$GENE_SYMBOL
+
+
+which(probe_list$ID != data_RNA_raw$V1)
+data_RNA_raw <- data_RNA_raw[,-1]%>%as.matrix
+row.names(data_RNA_raw) <- make.names(probe_list$GENE_SYMBOL[1:41000],unique=TRUE)
+
+"PLK1" %in% rownames(data_RNA_raw)
+"SERPINE1" %in% rownames(data_RNA_raw)
+"PTK2" %in% rownames(data_RNA_raw)
+"IGFBP2" %in% rownames(data_RNA_raw)
+
+table(data_clinical_raw$characteristics_ch2.3,data_clinical_raw$drug.response.ch2)
+
+rownames(data_clinical_raw)==colnames(data_RNA_raw)#make sure clinical data matches RNAseq data order
+
+
+#***
+#*Run ESTIMATE--updated 03.19.24
+#*ESTIMATE must run on matrix instead of dataframes
+{
+  {print("Run the following 2 lines for a new immunedeconvolution. Otherwise, open saved csv.")
+    
+    # data_RNA_raw <- as.matrix(data_RNA_raw)
+    # mode(data_RNA_raw) <- "numeric"
+    # res_estimate_raw<-immunedeconv::deconvolute(data_RNA_raw, "quantiseq")
+    res_estimate_raw<-immunedeconv::deconvolute(data_RNA_raw, "estimate")
+    # write.csv(res_estimate_raw,"ESTIMATE_GSE130788_Immune_Stromal_Signature.csv",row.names = TRUE,col.names = TRUE)
+  }
+  ### read ESTIMATE results
+  res_estimate_raw<-read.csv("ESTIMATE_GSE130788_Immune_Stromal_Signature.csv")
+  rownames(res_estimate_raw) <- res_estimate_raw$cell_type
+  res_estimate_raw <- res_estimate_raw[,-c(1,2)]
+}
+
+
+#***
+#*Pre-post therapy PLK1 and PAI1 changes
+#*
+#identify patient treatment status
+table(data_clinical_raw$characteristics_ch2)
+
+data_clinical_raw$title
+
+patientID_temp <- sub('.*vs. ', '', data_clinical_raw$title)
+patientID_status <- sub(' BrTuB07.*','', patientID_temp)
+patientID <- as.numeric(gsub("\\D", "", patientID_status))#substract all digits in a string
+
+library(stringi)
+patientID[stri_duplicated(patientID)]
+
+data_RNA_prepost <- data_RNA_raw[,which(patientID %in% patientID[stri_duplicated(patientID)])]%>%as.data.frame
+data_clinical_prepost <- data_clinical_raw[which(patientID %in% patientID[stri_duplicated(patientID)]),]
+res_estimate_prepost <- res_estimate_raw[,which(patientID %in% patientID[stri_duplicated(patientID)])]
+
+
+
+#correlations between pre- and post-therapy gene expression and stroma scores
+gene <- "SERPINE1"
+gene <- "PTK2"
+gene <- "IGFBP2"
+library(forcats)
+library(ggplot2)
+library(ggpubr)
+df_gene_stroma <- data.frame(
+  therapy = c(rep(c("pre","post"), each=178/2)),
+  gene_value = as.numeric(data_RNA_prepost[gene,]),
+  stroma_value = as.numeric(res_estimate_prepost["stroma score",])
+)%>%mutate(therapy = fct_relevel(therapy, 
+                                 "pre","post")) #mutate forces the levels of therapy to follow a "pre" "post" order
+ggplot(df_gene_stroma, aes(x=gene_value, y=stroma_value,color=therapy)) +
+  geom_point()+ 
+  geom_smooth(method = "lm", fill = NA)+
+  stat_cor()+
+  xlab(paste("Expression levels of",gene))+
+  ylab("ESTIMATE stroma score")
+
+#paired box plot and correlations
+ggpaired(df_gene_stroma, x = "therapy", y = "gene_value",line.color = "gray", line.size = 0.4,
+         color="therapy",palette = "npg")+
+  ylab(paste("Expression levels of",gene))+
+  stat_compare_means(method = "t.test",paired=TRUE)
+
+#stroma score changes before and after therapy
+ggpaired(df_gene_stroma, x = "therapy", y = "stroma_value",line.color = "gray", line.size = 0.4,
+         color="therapy",palette = "npg")+
+  ylab("ESTIMATE stroma scores")+
+  stat_compare_means(method = "t.test",paired=TRUE)
+
+#***
+#*delta PLK1 and SERPINE1 in RD vs. pCR
+#*
+gene <- "PLK1"
+data_clinical_prepost$drug.response.ch2[1:89]==data_clinical_prepost$drug.response.ch2[90:178]
+df_deltagene_stroma_response <- data.frame(
+  gene_value = as.numeric(data_RNA_prepost[gene,c(90:178)]-data_RNA_prepost[gene,c(1:89)]),
+  stroma_value_pre = as.numeric(res_estimate_prepost["stroma score",c(1:89)]),
+  stroma_value_post = as.numeric(res_estimate_prepost["stroma score",c(90:178)]),
+  response = data_clinical_prepost$drug.response.ch2[1:89]
+)
+
+ggplot(df_deltagene_stroma_response, aes(x=gene_value, y=stroma_value_post,color=response)) +
+  geom_point()+ 
+  geom_smooth(method = "lm", fill = NA)+
+  stat_cor()+
+  xlab(paste("Post minus pre therapy",gene))
+
+df_deltagene_stroma_response %>%
+  ggplot( aes(x=response, y=gene_value, fill=response)) +
+  geom_boxplot() +
+  geom_point(position=position_dodge(width=0.75),aes(group=response))+
+  ylab(paste("Post minus pre therapy",gene))+
+  stat_compare_means(method="wilcox.test")
+
+#***
+#*delta PLK1 and SERPINE1 in high vs. low pre-therapy stroma score patients
+#*
+gene <- "SERPINE1"
+#in all patients that are paired:
+df_deltagene_pre_stroma <- data.frame(
+  gene_value = as.numeric(data_RNA_prepost[gene,c(90:178)]-data_RNA_prepost[gene,c(1:89)]),#post minus pre therapy gene expression levels
+  stroma_value_pre = as.numeric(res_estimate_prepost["stroma score",c(1:89)]),
+  stroma_value_post = as.numeric(res_estimate_prepost["stroma score",c(90:178)]),
+  response = data_clinical_prepost$drug.response.ch2[1:89]
+)
+
+stroma_value_pre_class <- ifelse(df_deltagene_pre_stroma$stroma_value_pre>median(df_deltagene_pre_stroma$stroma_value_pre),"high","low")
+stroma_value_post_class <- ifelse(df_deltagene_pre_stroma$stroma_value_post>median(df_deltagene_pre_stroma$stroma_value_post),"high","low")
+df_deltagene_pre_stroma <- cbind(df_deltagene_pre_stroma, stroma_value_pre_class, stroma_value_post_class)
+
+# #run this for RD or pCR patients only
+# df_deltagene_pre_stroma <- subset(df_deltagene_pre_stroma,response=="PCR")
+
+df_deltagene_pre_stroma %>%
+  ggplot( aes(x=stroma_value_pre_class, y=gene_value, fill=stroma_value_pre_class)) +
+  geom_boxplot() +
+  geom_point(position=position_dodge(width=0.75),aes(group=stroma_value_pre_class))+
+  ylab(paste("Post minus pre therapy",gene))+
+  stat_compare_means(method="wilcox.test")
+
+write.csv(df_deltagene_pre_stroma,"GSE130788_all_patients_df_delta_PLK1_pre_therapy_ESTIMATE_stroma_score.csv")
+t.test(df_deltagene_pre_stroma$gene_value[which(df_deltagene_pre_stroma$stroma_value_pre_class=="low")], mu = 0)
+t.test(df_deltagene_pre_stroma$gene_value[which(df_deltagene_pre_stroma$stroma_value_pre_class=="high")], mu = 0)
+
+#Correlations between delta PLK1 and SERPINE1 vs. stroma scores
+ggplot(df_deltagene_pre_stroma, aes(x=stroma_value_pre, y=gene_value)) +
+  geom_point()+ 
+  geom_smooth(method = "lm", fill = NA)+
+  stat_cor()+
+  ylab(paste("Post minus pre therapy",gene))
+
+
+
+
+
+#***
+#*pre-therapy only PLK1 and SERPINE1 in high vs. low pre-therapy stroma score patients
+#*
+gene <- "SERPINE1"
+#in all patients that are paired:
+df_gene_stromaclass <- data.frame(
+  gene_value_pre = as.numeric(data_RNA_prepost[gene,c(1:89)]),#pre therapy gene expression levels
+  gene_value_post = as.numeric(data_RNA_prepost[gene,c(90:178)]),#post therapy gene expression levels
+  stroma_value_pre = as.numeric(res_estimate_prepost["stroma score",c(1:89)]),
+  stroma_value_post = as.numeric(res_estimate_prepost["stroma score",c(90:178)]),
+  response = data_clinical_prepost$drug.response.ch2[1:89]
+)
+
+stroma_value_pre_class <- ifelse(df_gene_stromaclass$stroma_value_pre>median(df_gene_stromaclass$stroma_value_pre),"high","low")
+stroma_value_post_class <- ifelse(df_gene_stromaclass$stroma_value_post>median(df_gene_stromaclass$stroma_value_post),"high","low")
+df_gene_stromaclass <- cbind(df_gene_stromaclass, stroma_value_pre_class, stroma_value_post_class)
+
+# #run this for RD or pCR patients only
+# df_deltagene_pre_stroma <- subset(df_deltagene_pre_stroma,response=="PCR")
+
+df_gene_stromaclass %>%
+  ggplot( aes(x=stroma_value_pre_class, y=gene_value_pre, fill=stroma_value_pre_class)) +
+  geom_boxplot() +
+  geom_point(position=position_dodge(width=0.75),aes(group=stroma_value_pre_class))+
+  ylab(paste("Pre therapy",gene))+
+  stat_compare_means(method="wilcox.test")
+
+df_gene_stromaclass %>%
+  ggplot( aes(x=stroma_value_pre_class, y=gene_value_post, fill=stroma_value_pre_class)) +
+  geom_boxplot() +
+  geom_point(position=position_dodge(width=0.75),aes(group=stroma_value_pre_class))+
+  ylab(paste("Post therapy",gene))+
+  stat_compare_means(method="wilcox.test")
+
+# write.csv(df_deltagene_pre_stroma,"GSE130788_all_patients_df_delta_PLK1_pre_therapy_ESTIMATE_stroma_score.csv")
+# t.test(df_deltagene_pre_stroma$gene_value[which(df_deltagene_pre_stroma$stroma_value_pre_class=="low")], mu = 0)
+# t.test(df_deltagene_pre_stroma$gene_value[which(df_deltagene_pre_stroma$stroma_value_pre_class=="high")], mu = 0)
+
+
+
+#***
+#*Run this if subsetting BASELINE SAMPLES only
+table(data_clinical_raw$characteristics_ch2)
+idx_baseline <- which(data_clinical_raw$characteristics_ch2==c("sample type: Breast tumor baseline"))
+data_RNA <- as.data.frame(data_RNA_raw)[,idx_baseline]
+data_clinical <- data_clinical_raw[idx_baseline,]
+res_estimate <- res_estimate_raw[,idx_baseline]
+
+#***
+#*Run this if subsetting the data with HIGH STROMA contents
+#*
+# idx_highstroma <- sort(res_estimate["stroma score",]%>%as.numeric, index.return=TRUE, decreasing=TRUE)[[2]][1:50]
+# data_RNA <- data_RNA[,idx_highstroma]
+# data_clinical <- data_clinical[idx_highstroma,]
+# res_estimate <- res_estimate[,idx_highstroma]
+
+#plotting
+curr_gene <- "IGFBP2"
+curr_gene %in% row.names(data_RNA)
+curr_gene_expr <- data_RNA[which(row.names(data_RNA)==curr_gene),]%>%as.numeric
+hist(curr_gene_expr,breaks=100)
+median_data = median(curr_gene_expr%>%na.omit)
+# idx_high <- which(curr_gene_expr>quantile(curr_gene_expr)[4])
+# idx_low <- which(curr_gene_expr<=quantile(curr_gene_expr)[2])
+idx_high <- which(curr_gene_expr>median_data)
+idx_low <- which(curr_gene_expr<=median_data)
+# idx_high <- which(curr_gene_expr>(-0.1))
+# idx_low <- which(curr_gene_expr<=(-0.1))
+
+
+#all samples with all 3 treatment types togetner
+id <- c(idx_high,idx_low)
+gene_expr_plotting <- curr_gene_expr[id]
+response_class <- data_clinical$drug.response.ch2[id]
+gene_expr_group <- c(replicate(length(idx_high),"high"),replicate(length(idx_low),"low"))
+treatment_group <- data_clinical$treatment.group.ch2[id]
+table(response_class,gene_expr_group)
+table(gene_expr_group, treatment_group)
+
+plotting_df <- data.frame(gene_expr_plotting,response_class)
+# treatment_group_selected <- "all"
+
+treatment_group_selected <- "TCHTy"
+plotting_df <- plotting_df[which(treatment_group==treatment_group_selected),]
+
+library(hrbrthemes)
+plotting_df %>%
+  ggplot( aes(x=response_class, y=gene_expr_plotting, fill=response_class)) +
+  geom_boxplot() +
+  geom_point(position=position_dodge(width=0.75),aes(group=response_class))+
+  theme_ipsum() +
+  theme(
+    legend.position="none",
+    plot.title = element_text(size=11)
+  ) +
+  ggtitle(curr_gene) +
+  xlab(treatment_group_selected)+
+  stat_compare_means(method="wilcox.test")
+
+
+#***
+#*Genes differentially expressed between PCR and RD patients
+#*
+table(data_clinical_prepost$characteristics_ch2.3,data_clinical_prepost$drug.response.ch2)
+
+#DEGs for all 3 treatment arm patients together, only select the pre-treatment data
+idx_pre_PCR <- which(data_clinical_prepost$drug.response.ch2=="PCR" & 
+                       data_clinical_prepost$sample.type.ch2=="Breast tumor baseline")
+
+idx_pre_RD <- which(data_clinical_prepost$drug.response.ch2=="RD" & 
+                       data_clinical_prepost$sample.type.ch2=="Breast tumor baseline")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

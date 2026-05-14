@@ -1,0 +1,12 @@
+﻿# Auto-generated: files >= 99MB excluded
+.RData
+.RDataTmp
+TCGA_Data_Fibroblast_Paper.csv
+brca_metabric/data_cna.txt
+brca_metabric/data_methylation_promoters_rrbs.txt
+brca_metabric/data_mrna_agilent_microarray.txt
+brca_metabric/data_mrna_agilent_microarray_zscores_ref_all_samples.txt
+GSE130788/GSE130788_RAW.tar
+GSE96058/GSE96058_gene_expression_3273_samples_and_136_replicates_transformed.csv
+GSE96058/GSE96058_gene_expression_3273_samples_and_136_replicates_transformed.csv.gz
+GSE96058/GSE96058_transcript_expression_3273_samples_and_136_replicates.csv

@@ -1,0 +1,544 @@
+PATIENT_ID	START_DATE	STOP_DATE	EVENT_TYPE	SURGERY_DETAILS	SOURCE	SAMPLE_ID	STATUS	SPECIMEN_TYPE	SURGEY	EVENT_DETAILS	SPECIMEN_SITE	DIAGNOSTIC_TYPE	DIAGNOSTIC_TYPE_DETAILED	EVENT_TYPE_DETAILED	HISTOLOGY	WHO_GRADE	SOURCE_PATHOLOGY
+P-0003958	37		Surgery						Breast Conservation	Side: Right							
+P-0003985	36		Surgery						Mastectomy	Side: Right							
+P-0003918	34		Surgery						Mastectomy	Side: Right							
+P-0003933	37		Surgery						Breast Conservation	Side: Right							
+P-0003947	34		Surgery						Breast Conservation	Side: Left							
+P-0003941	54		Surgery						Breast Conservation	Side: Left							
+P-0000015	25		Surgery						Mastectomy	Side: Left							
+P-0000066	34		Surgery						Mastectomy	Side: Right							
+P-0000081	212		Surgery						Mastectomy	Side: Left							
+P-0000102	33		Surgery						Breast Conservation	Side: Right							
+P-0000104	0		Surgery						Mastectomy	Side: Right							
+P-0000106	28		Surgery						Breast Conservation	Side: Right							
+P-0000120	53		Surgery						Mastectomy	Side: Left							
+P-0000125	27		Surgery						Mastectomy	Side: Left							
+P-0000152	53		Surgery						Mastectomy	Side: Left							
+P-0000160	32		Surgery						Mastectomy	Side: Right							
+P-0000167	16		Surgery						Breast Conservation	Side: Left							
+P-0000201	0		Surgery						Mastectomy	Side: Right							
+P-0000204	265		Surgery						None	Side:							
+P-0000216	0		Surgery						Breast Conservation	Side: Left							
+P-0000220	8		Surgery						Mastectomy	Side: Left							
+P-0000224	0		Surgery						Breast Conservation	Side: Left							
+P-0000234	36		Surgery						Breast Conservation	Side: Left							
+P-0000247	47		Surgery						Mastectomy	Side: Left							
+P-0000288	22		Surgery						Mastectomy	Side: Right							
+P-0000337	44		Surgery						Mastectomy	Side: Left							
+P-0000346	20		Surgery						Mastectomy	Side: Right							
+P-0000392	131		Surgery						Mastectomy	Side: Left							
+P-0000397	35		Surgery						Breast Conservation	Side: Left							
+P-0000398	232		Surgery						Mastectomy	Side: Right							
+P-0000422	78		Surgery						Mastectomy	Side: Right							
+P-0000435	29		Surgery						Breast Conservation	Side: Left							
+P-0000464	-174		Surgery						Mastectomy	Side: Right							
+P-0000469	301		Surgery						Mastectomy	Side: Right							
+P-0000472	188		Surgery						Mastectomy	Side: Left							
+P-0000495	48		Surgery						Mastectomy	Side: Left							
+P-0000508	30		Surgery						Mastectomy	Side: Left							
+P-0000514	77		Surgery						Mastectomy	Side: Right							
+P-0000519	43		Surgery						Mastectomy	Side: Left							
+P-0000525	90		Surgery						Mastectomy	Side: Right							
+P-0000532	20		Surgery						Mastectomy	Side: Left							
+P-0000584	22		Surgery						Mastectomy	Side: Left							
+P-0000607	259		Surgery						Mastectomy	Side: Right							
+P-0000617	14		Surgery						Mastectomy	Side: Left							
+P-0000624	30		Surgery						Mastectomy	Side: Left							
+P-0000690	0		Surgery						Mastectomy	Side: Right							
+P-0000704	80		Surgery						Mastectomy	Side: Right							
+P-0000795	47		Surgery						Mastectomy	Side: Left							
+P-0000805	154		Surgery						Mastectomy	Side: Left							
+P-0000816	57		Surgery						Mastectomy	Side: Left							
+P-0000820	14		Surgery						Mastectomy	Side: Left							
+P-0000861	-10		Surgery						Mastectomy	Side: Left							
+P-0000864	0		Surgery						Breast Conservation	Side: Right							
+P-0000871	13		Surgery						Mastectomy	Side: Left							
+P-0001952	61		Surgery						Mastectomy	Side: Left							
+P-0000887	23		Surgery						Mastectomy	Side: Right							
+P-0000955	6		Surgery						Mastectomy	Side: Left							
+P-0000984	22		Surgery						Breast Conservation	Side: Left							
+P-0000985	0		Surgery						Breast Conservation	Side: Left							
+P-0001032	0		Surgery						Breast Conservation	Side: Left							
+P-0001061	-10		Surgery						Breast Conservation	Side: Left							
+P-0001078	0		Surgery						Breast Conservation	Side: Right							
+P-0001114	21		Surgery						Mastectomy	Side: Left							
+P-0001118	-1253		Surgery						Mastectomy	Side: Left							
+P-0001183	19		Surgery						Mastectomy	Side: Bilateral							
+P-0001184	143		Surgery						Mastectomy	Side: Left							
+P-0001258	0		Surgery						Mastectomy	Side: Left							
+P-0001308	349		Surgery						Mastectomy	Side: Left							
+P-0001350	27		Surgery						Mastectomy	Side: Left							
+P-0001351	160		Surgery						Mastectomy	Side: Left							
+P-0001354	548		Surgery						Mastectomy	Side: Right							
+P-0001355	32		Surgery						Mastectomy	Side: Right							
+P-0001366	83		Surgery						Mastectomy	Side: Right							
+P-0001372	49		Surgery						Breast Conservation	Side: Right							
+P-0001376	91		Surgery						Mastectomy	Side: Right							
+P-0001395	35		Surgery						Mastectomy	Side: Right							
+P-0001417	-166		Surgery						Mastectomy	Side: Bilateral							
+P-0001484	60		Surgery						Mastectomy	Side: Left							
+P-0001489	52		Surgery						Mastectomy	Side: Right							
+P-0001491	176		Surgery						Breast Conservation	Side: Left							
+P-0001508	30		Surgery						Mastectomy	Side: Right							
+P-0001516	39		Surgery						Breast Conservation	Side: Left							
+P-0001545	18		Surgery						Breast Conservation	Side: Left							
+P-0001566	158		Surgery						Mastectomy	Side: Right							
+P-0001580	20		Surgery						Breast Conservation	Side: Right							
+P-0001589	234		Surgery						Completion Mastectomy	Side: Right							
+P-0001608	91		Surgery						Breast Conservation	Side: Right							
+P-0001620	109		Surgery						Mastectomy	Side: Right							
+P-0001631	8		Surgery						Mastectomy	Side: Left							
+P-0001632	134		Surgery						Mastectomy	Side: Left							
+P-0001643	-426		Surgery						Breast Conservation	Side: Left							
+P-0001672	22		Surgery						Breast Conservation	Side: Right							
+P-0001751	13		Surgery						Mastectomy	Side: Left							
+P-0001846	214		Surgery						Breast Conservation	Side: Right							
+P-0001874	39		Surgery						Mastectomy	Side: Right							
+P-0001875	152		Surgery						Breast Conservation	Side: Left							
+P-0001887	15		Surgery						Mastectomy	Side: Left							
+P-0001902	0		Surgery						Mastectomy	Side: Left							
+P-0001908	4		Surgery						Breast Conservation	Side:							
+P-0001932	182		Surgery						Mastectomy	Side: Left							
+P-0001935	92		Surgery						Breast Conservation	Side: Left							
+P-0001957	3858		Surgery						Mastectomy								
+P-0001967	29		Surgery						Mastectomy								
+P-0001979	178		Surgery						Mastectomy								
+P-0002017	0		Surgery						Breast Conservation								
+P-0002053	169		Surgery						Mastectomy								
+P-0002088	0		Surgery						Breast Conservation								
+P-0002096	179		Surgery						Mastectomy								
+P-0002106	29		Surgery						Mastectomy								
+P-0002115	-3652		Surgery						Mastectomy								
+P-0002124	25		Surgery						Mastectomy								
+P-0002129	28		Surgery						Breast Conservation								
+P-0002133	137		Surgery						Breast Conservation								
+P-0002176	-96		Surgery						Mastectomy								
+P-0002232	81		Surgery						Breast Conservation								
+P-0002281	139		Surgery						Mastectomy								
+P-0002297	0		Surgery						Mastectomy								
+P-0002312	845		Surgery						Salvage Mastectomy								
+P-0002366	0		Surgery						Mastectomy								
+P-0002374	3762		Surgery						Mastectomy								
+P-0002473	20		Surgery						Breast Conservation								
+P-0002527	40		Surgery						Mastectomy								
+P-0002531	43		Surgery						Breast Conservation								
+P-0002562	14		Surgery						Mastectomy								
+P-0002574	9		Surgery						Mastectomy								
+P-0002582	46		Surgery						Mastectomy								
+P-0002591	27		Surgery						Breast Conservation								
+P-0002617	70		Surgery						Mastectomy								
+P-0002622	37		Surgery						Breast Conservation								
+P-0002625	42		Surgery						Mastectomy								
+P-0002630	95		Surgery						Mastectomy								
+P-0002661	35		Surgery						Mastectomy								
+P-0002682	81		Surgery						Breast Conservation								
+P-0002696	25		Surgery						Breast Conservation								
+P-0002713	17		Surgery						Breast Conservation								
+P-0002781	-3634		Surgery						Breast Conservation								
+P-0002813	21		Surgery						Mastectomy								
+P-0002828	91		Surgery						Mastectomy								
+P-0002911	103		Surgery						Mastectomy								
+P-0002915	37		Surgery						Mastectomy								
+P-0002922	6		Surgery						Breast Conservation								
+P-0002975	33		Surgery						Mastectomy								
+P-0003021	3457		Surgery						Breast Conservation								
+P-0003025	26		Surgery						Breast Conservation								
+P-0003042	20		Surgery						Mastectomy								
+P-0003054	-14		Surgery						Breast Conservation								
+P-0003063	27		Surgery						Mastectomy								
+P-0003066	25		Surgery						Mastectomy								
+P-0003108	125		Surgery						Mastectomy								
+P-0003142	14		Surgery						Breast Conservation								
+P-0003147	0		Surgery						Breast Conservation								
+P-0003173	0		Surgery						Breast Conservation								
+P-0003185	-1563		Surgery						Mastectomy								
+P-0003192	14		Surgery						Breast Conservation								
+P-0003223	34		Surgery						Breast Conservation								
+P-0003224	338		Surgery						Mastectomy								
+P-0003233	34		Surgery						Mastectomy								
+P-0003236	15		Surgery						Breast Conservation								
+P-0003241	26		Surgery						Mastectomy								
+P-0003265	19		Surgery						Breast Conservation								
+P-0003273	41		Surgery						Mastectomy								
+P-0003281	223		Surgery						Mastectomy								
+P-0003294	207		Surgery						Mastectomy								
+P-0003345	6		Surgery						Mastectomy								
+P-0003351	9		Surgery						Mastectomy								
+P-0003375	23		Surgery						Mastectomy								
+P-0003393	0		Surgery						Mastectomy								
+P-0003394	42		Surgery						Mastectomy								
+P-0003431	8		Surgery						Mastectomy								
+P-0003459	146		Surgery						Mastectomy								
+P-0003493	8		Surgery						Mastectomy								
+P-0003522	11		Surgery						Breast Conservation								
+P-0003528	-3830		Surgery						Mastectomy								
+P-0003557	147		Surgery						Mastectomy								
+P-0003581	41		Surgery						Mastectomy								
+P-0003591	37		Surgery						Mastectomy								
+P-0003594	79		Surgery						Breast Conservation								
+P-0003603	43		Surgery						Breast Conservation								
+P-0003606	13		Surgery						Breast Conservation								
+P-0003622	287		Surgery						Mastectomy								
+P-0003634	17		Surgery						Mastectomy								
+P-0003641	130		Surgery						Mastectomy								
+P-0003661	35		Surgery						Mastectomy								
+P-0003683	165		Surgery						Mastectomy								
+P-0003751	23		Surgery						Mastectomy								
+P-0003784	30		Surgery						Breast Conservation								
+P-0003819	832		Surgery						Breast Conservation								
+P-0003950	0		Surgery						Breast Conservation								
+P-0004052	21		Surgery						Breast Conservation								
+P-0004151	37		Surgery						Mastectomy								
+P-0004158	40		Surgery						Mastectomy								
+P-0004165	45		Surgery						Mastectomy								
+P-0004181	0		Surgery						Breast Conservation								
+P-0004187	42		Surgery						Breast Conservation								
+P-0004193	67		Surgery						Mastectomy								
+P-0004216	-567		Surgery						Mastectomy								
+P-0004237	25		Surgery						Mastectomy								
+P-0004246	45		Surgery						Mastectomy								
+P-0004264	111		Surgery						Mastectomy								
+P-0004286	38		Surgery						Mastectomy								
+P-0004295	23		Surgery						Mastectomy								
+P-0004301	60		Surgery						Mastectomy								
+P-0004346	209		Surgery						Mastectomy								
+P-0004353	42		Surgery						Mastectomy								
+P-0004375	0		Surgery						Mastectomy								
+P-0004392	151		Surgery						Breast Conservation								
+P-0004406	7		Surgery						Breast Conservation								
+P-0004477	26		Surgery						Mastectomy								
+P-0004523	43		Surgery						Mastectomy								
+P-0004537	175		Surgery						Mastectomy								
+P-0004558	49		Surgery						Mastectomy								
+P-0004637	42		Surgery						Mastectomy								
+P-0004670	-3895		Surgery						Mastectomy								
+P-0004728	36		Surgery						Mastectomy								
+P-0004753	35		Surgery						Mastectomy								
+P-0004758	34		Surgery						Mastectomy								
+P-0004824	233		Surgery						Mastectomy								
+P-0004835	26		Surgery						Breast Conservation								
+P-0000138	2240		Status				Time of recurrence										
+P-0003958	49		Status				Time of recurrence										
+P-0003985	33		Status				Time of recurrence										
+P-0003918	0		Status				Time of recurrence										
+P-0003933	0		Status				Time of recurrence										
+P-0003947	0		Status				Time of recurrence										
+P-0003941	453		Status				Time of recurrence										
+P-0000015	456		Status				Time of recurrence										
+P-0000066	4928		Status				Time of recurrence										
+P-0000081	644		Status				Time of recurrence										
+P-0000102	195		Status				Time of recurrence										
+P-0000104	21		Status				Time of recurrence										
+P-0000106	6		Status				Time of recurrence										
+P-0000120	0		Status				Time of recurrence										
+P-0000125	109		Status				Time of recurrence										
+P-0000138	2225		Status				Time of recurrence										
+P-0000152	0		Status				Time of recurrence										
+P-0000155	12		Status				Time of recurrence										
+P-0000160	1715		Status				Time of recurrence										
+P-0000167	12		Status				Time of recurrence										
+P-0000167	61		Status				Time of recurrence										
+P-0000201	3447		Status				Time of recurrence										
+P-0000204	711		Status				Time of recurrence										
+P-0000204	897		Status				Time of recurrence										
+P-0000216	483		Status				Time of recurrence										
+P-0000216	568		Status				Time of recurrence										
+P-0000220	0		Status				Time of recurrence										
+P-0000224	1149		Status				Time of recurrence										
+P-0000234	444		Status				Time of recurrence										
+P-0000242	91		Status				Time of recurrence										
+P-0000247	1119		Status				Time of recurrence										
+P-0000259	0		Status				Time of recurrence										
+P-0000278	0		Status				Time of recurrence										
+P-0000281	0		Status				Time of recurrence										
+P-0000281	1064		Status				Time of recurrence										
+P-0000288	5396		Status				Time of recurrence										
+P-0000337	12		Status				Time of recurrence										
+P-0000346	474		Status				Time of recurrence										
+P-0000392	1006		Status				Time of recurrence										
+P-0000397	854		Status				Time of recurrence										
+P-0000398	0		Status				Time of recurrence										
+P-0000422	763		Status				Time of recurrence										
+P-0000422	909		Status				Time of recurrence										
+P-0000432	1137		Status				Time of recurrence										
+P-0000435	1687		Status				Time of recurrence										
+P-0000464	328		Status				Time of recurrence										
+P-0000468	416		Status				Time of recurrence										
+P-0000469	0		Status				Time of recurrence										
+P-0000471	927		Status				Time of recurrence										
+P-0000472	158		Status				Time of recurrence										
+P-0000473	0		Status				Time of recurrence										
+P-0000495	0		Status				Time of recurrence										
+P-0000508	188		Status				Time of recurrence										
+P-0000519	12		Status				Time of recurrence										
+P-0000522	0		Status				Time of recurrence										
+P-0000525	6		Status				Time of recurrence										
+P-0000595	9		Status				Time of recurrence										
+P-0000595	556		Status				Time of recurrence										
+P-0000597	27		Status				Time of recurrence										
+P-0000607	860		Status				Time of recurrence										
+P-0000617	0		Status				Time of recurrence										
+P-0000690	0		Status				Time of recurrence										
+P-0000704	6		Status				Time of recurrence										
+P-0000786	1365		Status				Time of recurrence										
+P-0000795	1408		Status				Time of recurrence										
+P-0000805	27		Status				Time of recurrence										
+P-0000816	1107		Status				Time of recurrence										
+P-0000820	1292		Status				Time of recurrence										
+P-0000861	271		Status				Time of recurrence										
+P-0000864	0		Status				Time of recurrence										
+P-0000871	3		Status				Time of recurrence										
+P-0001952	9084		Status				Time of recurrence										
+P-0000887	21		Status				Time of recurrence										
+P-0000947	0		Status				Time of recurrence										
+P-0000955	5876		Status				Time of recurrence										
+P-0000984	860		Status				Time of recurrence										
+P-0000985	40		Status				Time of recurrence										
+P-0001032	43		Status				Time of recurrence										
+P-0001061	4128		Status				Time of recurrence										
+P-0001078	0		Status				Time of recurrence										
+P-0001114	234		Status				Time of recurrence										
+P-0001118	1365		Status				Time of recurrence										
+P-0001183	21		Status				Time of recurrence										
+P-0001184	1368		Status				Time of recurrence										
+P-0001258	1587		Status				Time of recurrence										
+P-0001263	0		Status				Time of recurrence										
+P-0001290	36		Status				Time of recurrence										
+P-0001308	331		Status				Time of recurrence										
+P-0001350	9		Status				Time of recurrence										
+P-0001351	6		Status				Time of recurrence										
+P-0001354	581		Status				Time of recurrence										
+P-0001366	648		Status				Time of recurrence										
+P-0001372	36		Status				Time of recurrence										
+P-0001376	0		Status				Time of recurrence										
+P-0001395	122		Status				Time of recurrence										
+P-0001417	0		Status				Time of recurrence										
+P-0001484	1718		Status				Time of recurrence										
+P-0001489	188		Status				Time of recurrence										
+P-0001491	632		Status				Time of recurrence										
+P-0001505	70		Status				Time of recurrence										
+P-0001505	410		Status				Time of recurrence										
+P-0001508	33		Status				Time of recurrence										
+P-0001516	1271		Status				Time of recurrence										
+P-0001545	3		Status				Time of recurrence										
+P-0001566	1198		Status				Time of recurrence										
+P-0001580	0		Status				Time of recurrence										
+P-0001589	784		Status				Time of recurrence										
+P-0001608	24		Status				Time of recurrence										
+P-0001620	9		Status				Time of recurrence										
+P-0001632	410		Status				Time of recurrence										
+P-0001643	2168		Status				Time of recurrence										
+P-0001672	36		Status				Time of recurrence										
+P-0001751	784		Status				Time of recurrence										
+P-0001793	0		Status				Time of recurrence										
+P-0001846	1222		Status				Time of recurrence										
+P-0001874	350		Status				Time of recurrence										
+P-0001875	0		Status				Time of recurrence										
+P-0001887	12		Status				Time of recurrence										
+P-0001889	15		Status				Time of recurrence										
+P-0001902	176		Status				Time of recurrence										
+P-0001908	24		Status				Time of recurrence										
+P-0001932	46		Status				Time of recurrence										
+P-0001935	1088		Status				Time of recurrence										
+P-0001952	8938		Status				Time of recurrence										
+P-0001957	33		Status				Time of recurrence										
+P-0001967	18		Status				Time of recurrence										
+P-0001979	30		Status				Time of recurrence										
+P-0001990	3812		Status				Time of recurrence										
+P-0002017	6		Status				Time of recurrence										
+P-0002053	6		Status				Time of recurrence										
+P-0002082	0		Status				Time of recurrence										
+P-0002088	435		Status				Time of recurrence										
+P-0002096	0		Status				Time of recurrence										
+P-0002106	12		Status				Time of recurrence										
+P-0002115	97		Status				Time of recurrence										
+P-0002124	18		Status				Time of recurrence										
+P-0002129	158		Status				Time of recurrence										
+P-0002133	9		Status				Time of recurrence										
+P-0002139	222		Status				Time of recurrence										
+P-0002144	103		Status				Time of recurrence										
+P-0002176	3700		Status				Time of recurrence										
+P-0002232	1693		Status				Time of recurrence										
+P-0002281	0		Status				Time of recurrence										
+P-0002297	36		Status				Time of recurrence										
+P-0002312	18		Status				Time of recurrence										
+P-0002324	61		Status				Time of recurrence										
+P-0002366	0		Status				Time of recurrence										
+P-0002374	918		Status				Time of recurrence										
+P-0002473	2158		Status				Time of recurrence										
+P-0002527	9		Status				Time of recurrence										
+P-0002531	109		Status				Time of recurrence										
+P-0002562	1435		Status				Time of recurrence										
+P-0002574	1459		Status				Time of recurrence										
+P-0002582	429		Status				Time of recurrence										
+P-0002591	1377		Status				Time of recurrence										
+P-0002617	711		Status				Time of recurrence										
+P-0002622	3		Status				Time of recurrence										
+P-0002625	234		Status				Time of recurrence										
+P-0002630	0		Status				Time of recurrence										
+P-0002652	27		Status				Time of recurrence										
+P-0002661	67		Status				Time of recurrence										
+P-0002682	784		Status				Time of recurrence										
+P-0002696	21		Status				Time of recurrence										
+P-0002713	33		Status				Time of recurrence										
+P-0002773	1332		Status				Time of recurrence										
+P-0002781	0		Status				Time of recurrence										
+P-0002813	12		Status				Time of recurrence										
+P-0002828	12		Status				Time of recurrence										
+P-0002911	21		Status				Time of recurrence										
+P-0002915	313		Status				Time of recurrence										
+P-0002922	30		Status				Time of recurrence										
+P-0002942	12		Status				Time of recurrence										
+P-0002975	21		Status				Time of recurrence										
+P-0003005	6		Status				Time of recurrence										
+P-0003021	830		Status				Time of recurrence										
+P-0003042	24		Status				Time of recurrence										
+P-0003063	699		Status				Time of recurrence										
+P-0003066	1286		Status				Time of recurrence										
+P-0003108	532		Status				Time of recurrence										
+P-0003142	2262		Status				Time of recurrence										
+P-0003147	6928		Status				Time of recurrence										
+P-0003173	3		Status				Time of recurrence										
+P-0003185	49		Status				Time of recurrence										
+P-0003192	237		Status				Time of recurrence										
+P-0003223	0		Status				Time of recurrence										
+P-0003224	3049		Status				Time of recurrence										
+P-0003233	0		Status				Time of recurrence										
+P-0003236	0		Status				Time of recurrence										
+P-0003265	1943		Status				Time of recurrence										
+P-0003273	459		Status				Time of recurrence										
+P-0003281	222		Status				Time of recurrence										
+P-0003294	0		Status				Time of recurrence										
+P-0003306	18		Status				Time of recurrence										
+P-0003345	0		Status				Time of recurrence										
+P-0003351	468		Status				Time of recurrence										
+P-0003375	49		Status				Time of recurrence										
+P-0003393	2724		Status				Time of recurrence										
+P-0003394	277		Status				Time of recurrence										
+P-0003431	24		Status				Time of recurrence										
+P-0003459	106		Status				Time of recurrence										
+P-0003493	6		Status				Time of recurrence										
+P-0003522	21		Status				Time of recurrence										
+P-0003528	4302		Status				Time of recurrence										
+P-0003557	0		Status				Time of recurrence										
+P-0003581	997		Status				Time of recurrence										
+P-0003594	0		Status				Time of recurrence										
+P-0003603	441		Status				Time of recurrence										
+P-0003622	27		Status				Time of recurrence										
+P-0003634	3529		Status				Time of recurrence										
+P-0003641	0		Status				Time of recurrence										
+P-0003661	6		Status				Time of recurrence										
+P-0003683	158		Status				Time of recurrence										
+P-0003751	0		Status				Time of recurrence										
+P-0003772	36		Status				Time of recurrence										
+P-0003784	0		Status				Time of recurrence										
+P-0003819	271		Status				Time of recurrence										
+P-0003950	1353		Status				Time of recurrence										
+P-0004052	55		Status				Time of recurrence										
+P-0004151	3		Status				Time of recurrence										
+P-0004158	15		Status				Time of recurrence										
+P-0004165	0		Status				Time of recurrence										
+P-0004178	21		Status				Time of recurrence										
+P-0004181	4031		Status				Time of recurrence										
+P-0004182	21		Status				Time of recurrence										
+P-0004183	2155		Status				Time of recurrence										
+P-0004187	1143		Status				Time of recurrence										
+P-0004193	12		Status				Time of recurrence										
+P-0004216	0		Status				Time of recurrence										
+P-0004237	0		Status				Time of recurrence										
+P-0004264	6469		Status				Time of recurrence										
+P-0004286	258		Status				Time of recurrence										
+P-0004289	1365		Status				Time of recurrence										
+P-0004295	21		Status				Time of recurrence										
+P-0004301	0		Status				Time of recurrence										
+P-0004346	511		Status				Time of recurrence										
+P-0004353	793		Status				Time of recurrence										
+P-0004375	371		Status				Time of recurrence										
+P-0004392	12		Status				Time of recurrence										
+P-0004406	678		Status				Time of recurrence										
+P-0004477	106		Status				Time of recurrence										
+P-0004523	21		Status				Time of recurrence										
+P-0004537	21		Status				Time of recurrence										
+P-0004558	0		Status				Time of recurrence										
+P-0004637	1058		Status				Time of recurrence										
+P-0004670	94		Status				Time of recurrence										
+P-0004728	15		Status				Time of recurrence										
+P-0004753	21		Status				Time of recurrence										
+P-0004758	6		Status				Time of recurrence										
+P-0004824	27		Status				Time of recurrence										
+P-0004835	1882		Status				Time of recurrence										
+P-0003054	0		Status		Outside		Initial Dx										
+P-0009931	0		Status		Outside		Initial Dx										
+P-0003054	275		Status				POD_1										
+P-0009931	83		Status				POD_1										
+P-0003345	0		Status		Outside		Initial Dx										
+P-0030480	0		Status		Outside		Initial Dx										
+P-0009931	-3		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	118		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	137		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	180		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0009931	209		Imaging		Darwin							MRI	MRI BRAIN STEM W/O DYE				
+P-0003054	275		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	314		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	34		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	345		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	358		Imaging		Darwin							MRI	MRI BRAIN STEM W/DYE				
+P-0003054	367		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	446		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	467		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	488		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	61		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	1017		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	1108		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	1220		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	1351		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	141		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	1472		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	1619		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	1702		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	1739		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	1837		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	1928		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	2026		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	205		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	2145		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	2320		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	2439		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	2558		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	262		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	2747		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	2929		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	316		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	387		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	450		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	513		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	52		Imaging		Darwin							MRI	MRI BRAIN STEM W/DYE				
+P-0003345	576		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	638		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	702		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	793		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	891		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	1714		Imaging		Darwin							PET Scan	BRAIN Imaging (PET)				
+P-0030480	105		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0030480	175		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0030480	175		Imaging		Darwin							MRI	MRI CHEST SPINE W/O & W/DYE				
+P-0030480	175		Imaging		Darwin							MRI	MRI LUMBAR SPINE W/O & W/DYE				
+P-0030480	175		Imaging		Darwin							MRI	MRI NECK SPINE W/O & W/DYE				
+P-0003345	3118		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	3300		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	3488		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003345	3663		Imaging		Darwin							MRI	MRI BRAIN STEM W/O & W/DYE				
+P-0003054	0		Specimen		Outside	P-0003054-T01-IM3		Tissue			Temporal						
+P-0003054	0		Specimen		Outside	P-0003054-T01-IM5		Tissue			Temporal						
+P-0009931	0		Specimen		Outside	P-0009931-T01-IM5		Tissue			Parietal						
+P-0009931	0		Specimen		Outside	P-0019821-T01-IM6		Tissue			Parietal						
+P-0003054	365		Specimen		MSK	P-0010635-T01-IM5		Tissue			Frontal						
+P-0003345	0		Specimen		Outside	P-0003345-T01-IM5		Tissue			Frontal						
+P-0030480	0		Specimen		Outside	P-0030480-T01-IM6		Tissue			Suboccipital						
+P-0030480	0		Specimen		Outside	P-0033959-T01-IM6		Tissue			Suboccipital						
+P-0003054	0		Surgery	Craniotomy	Outside									Procedure Side-Right	Glioblastoma	G4	MSK Reviewed Path
+P-0009931	0		Surgery	Craniotomy	Outside									Procedure Side-Left	Glioblastoma	G4	MSK Reviewed Path
+P-0003054	365		Surgery	Craniotomy	MSK									Procedure Side-Right	Recurrent/residual glioblastoma	G4	MSK Path
+P-0003345	0		Surgery	Craniotomy	Outside									Procedure Side-Right	Diffuse Astrocytoma	G2	MSK Reviewed Path
+P-0003345	0		Surgery	Craniotomy	Outside									Procedure Side-Right	Diffuse Astrocytoma	G3	MSK Reviewed Path
+P-0030480	0		Surgery	Craniectomy	Outside									Procedure Side-Midline	High-Grade Astrocytoma	G4	MSK Reviewed Path
